@@ -1,0 +1,30 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int avg(int,int);
+int mode(int,int);
+int main()
+{
+    int a,b,c,d,sum;
+    cin>>a;
+    cin>>b;
+    c=avg(a,b);
+    cout<<"average of two no."<<"  "<<c<<"\n";
+    d=mode(a,b);
+    cout<<"mode of two no."<<"  "<<d<<"\n";
+    sum=c+d;
+    cout<<"sum of avg and sum is "<<"  "<<sum;
+    
+}
+int avg(int x,int y)
+{
+    int z;
+    z=(x+y)/2;
+    return(z);
+}
+int mode(int x,int y)
+{
+    int z;
+    z=x%y;
+    return(z);
+}
