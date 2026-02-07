@@ -1,0 +1,27 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+    int n,sum=0,d,e;
+    cin>>n;
+   int t=n;
+    while(n>0)
+    {
+        d=n%10;
+        e=d*d*d;
+        sum=sum+e;
+        n=n/10;
+    }
+    cout<<sum;
+    if(sum=t)
+    {
+        cout<<"num is armstrome";
+    }
+    else
+    {
+        cout<<"num is not armstrome";
+    }
+    
+
+}
