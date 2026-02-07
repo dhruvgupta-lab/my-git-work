@@ -1,0 +1,25 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+    char choice;
+    float a,b;
+    cin>>a;
+    cin>>b;
+    cin>>choice;
+    switch(choice){
+        case '+':
+        cout<<(a+b);
+        break;
+        case '-':
+        cout<<(a-b);
+        break;
+        default:
+        cout<<"sorry";
+    }
+    
+    
+	
+
+}
