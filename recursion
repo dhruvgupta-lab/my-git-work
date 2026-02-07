@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+int add(int a,int b)
+{
+    if(b==0)
+    return a;
+     return add(a+1,b-1);
+}
+
+int main() 
+{
+	int a,b;
+	cin>>a;
+	cin>>b;
+	cout<<"addition of two no. is"<<"  "<<add(a,b);
+	return 0;
+}
