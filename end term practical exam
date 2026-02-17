@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>School Result Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 20px auto;
+            text-align: center;
+        }
+        table, th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        caption {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        thead {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <caption>Class 10 - Annual Examination Result</caption>
+
+    <thead>
+        <tr>
+            <th rowspan="2">Roll No</th>
+            <th rowspan="2">Student Name</th>
+            <th colspan="4">Subjects</th>
+            <th rowspan="2">Total</th>
+            <th rowspan="2">Percentage</th>
+            <th rowspan="2">Grade</th>
+        </tr>
+        <tr>
+            <th>English</th>
+            <th>Math</th>
+            <th>Science</th>
+            <th>Social Studies</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Aarav Sharma</td>
+            <td>85</td>
+            <td>92</td>
+            <td>88</td>
+            <td>79</td>
+            <td>344</td>
+            <td>86%</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Diya Patel</td>
+            <td>78</td>
+            <td>81</td>
+            <td>74</td>
+            <td>80</td>
+            <td>313</td>
+            <td>78.25%</td>
+            <td>B+</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Rohan Singh</td>
+            <td>90</td>
+            <td>95</td>
+            <td>93</td>
+            <td>89</td>
+            <td>367</td>
+            <td>91.75%</td>
+            <td>A+</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
